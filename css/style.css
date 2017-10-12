@@ -1,6 +1,58 @@
 /* line 1, ../sass/style.sass */
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: #F00;
+body {
+  background-color: #f8f8f8 !important;
+}
+
+/* line 4, ../sass/style.sass */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 7, ../sass/style.sass */
+li {
+  list-style: none;
+}
+
+/* line 10, ../sass/style.sass */
+.heading-main {
+  padding-left: 15px;
+  border-left: 5px solid #e02528;
+}
+
+/* line 14, ../sass/style.sass */
+.biodata {
+  padding: 30px 15px;
+  background-color: #282828;
+}
+/* line 17, ../sass/style.sass */
+.biodata .biodata-photo {
+  width: 100%;
+  background-color: #666666;
+}
+/* line 21, ../sass/style.sass */
+.biodata .biodata-detail li {
+  clear: both;
+}
+/* line 24, ../sass/style.sass */
+.biodata .biodata-detail-left,
+.biodata .biodata-detail-right {
+  float: left;
+}
+/* line 27, ../sass/style.sass */
+.biodata .biodata-detail-left {
+  width: 110px;
+  padding-right: 20px;
+}
+
+/* line 32, ../sass/style.sass */
+.loading {
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+}
+
+/* line 38, ../sass/style.sass */
+.fwhite {
+  color: #fff;
 }

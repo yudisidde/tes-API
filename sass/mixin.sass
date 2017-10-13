@@ -1,0 +1,63 @@
+=transition($transition)
+	-webkit-transition: ($transition)
+	-moz-transition: ($transition)
+	-ms-transition: ($transition)
+	-o-transition: ($transition)
+	transition: ($transition)
+
+=transform($transform)
+	-moz-transform: ($transform)
+	-webkit-transform: ($transform)
+	-o-transform: ($transform)
+	-ms-transform: ($transform)
+	transform: ($transform)
+
+=animation($animation)
+	-webkit-animation: ($animation)
+	-moz-animation: ($animation)
+	-o-animation: ($animation)
+	animation: ($animation)
+
+=transition-delay($tDelay)
+	-webkit-transition-delay: ($tDelay)
+	-moz-transition-delay: ($tDelay)
+	-o-transition-delay: ($tDelay)
+	transition-delay: ($tDelay)
+
+=border-radius($radius)
+	-moz-border-radius: ($radius)
+	-webkit-border-radius: ($radius)
+	border-radius: ($radius)
+
+=box-shadow($shadow)
+	-webkit-box-shadow: ($shadow)
+	-moz-box-shadow: ($shadow)
+	box-shadow: ($shadow)
+
+=filter($filter)
+	-webkit-filter: ($filter)
+	-moz-filter: ($filter)
+	-o-filter: ($filter)
+	-ms-filter: ($filter)
+	filter: ($filter)
+
+=keyframes($keyName)
+	@-webkit-keyframes #{$keyName}
+		@content
+	@-moz-keyframes #{$keyName}
+		@content
+	@-ms-keyframes #{$keyName}
+		@content
+	@keyframes #{$keyName}
+		@content
+
+=animation($animation)
+	-webkit-animation: ($animation)
+	-moz-animation: ($animation)
+	-o-animation: ($animation)
+	animation: ($animation)
+
+=box-shadow($boxshadow)
+	-webkit-box-shadow: ($boxshadow)
+	-moz-box-shadow: ($boxshadow)
+	box-shadow: ($boxshadow)

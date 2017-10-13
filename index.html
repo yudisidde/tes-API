@@ -11,53 +11,134 @@
 </head>
 <body>
 
-<div class="loading"></div>
-
-<div class="container konten-main hide">
-	<h1 class="heading-main">Lukes</h1>
-	<!-- start biodata -->
-	<div class="biodata">
+<!-- start main content -->
+<div class="container konten-main">
+	<!-- start profile -->
+	<div class="profile section">
+		<h1 class="heading-main actor-name"></h1>
+		<!-- start biodata -->
+		<div class="biodata">
+			<div class="row">
+				<!-- start biodata poto -->
+				<div class="col-md-2">
+					<div class="biodata-photo">
+						<div class="overlay">
+							<div class="overlay-icon"><i class="fa fa-user fwhite"></i></div>
+						</div>
+					</div>
+				</div>
+				<!-- end biodata poto -->
+				<!-- start biodata detail -->
+				<div class="col-md-10">
+					<div class="biodata-detail fwhite">
+						<ul>
+							<li>
+								<div class="biodata-detail-left">Height :</div>
+								<div class="biodata-detail-right actor-height"></div>
+							</li>
+							<li>
+								<div class="biodata-detail-left">Mass :</div>
+								<div class="biodata-detail-right actor-mass"></div>
+							</li>
+							<li>
+								<div class="biodata-detail-left">Hair Color :</div>
+								<div class="biodata-detail-right actor-hair"></div>
+							</li>
+							<li>
+								<div class="biodata-detail-left">Skin Color :</div>
+								<div class="biodata-detail-right actor-skin"></div>
+							</li>
+							<li>
+								<div class="biodata-detail-left">Birth Year :</div>
+								<div class="biodata-detail-right actor-birth"></div>
+							</li>
+							<li>
+								<div class="biodata-detail-left">Gender :</div>
+								<div class="biodata-detail-right actor-gender"></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- end biodata detail -->
+			</div>
+		</div>
+		<!-- end biodata -->
+	</div>
+	<!-- end profile -->
+	<!-- start movies -->
+	<div class="movies section">
 		<div class="row">
-			<!-- start biodata poto -->
-			<div class="col-md-2">
-				<div class="biodata-photo">
-					<i class="fa fa-user fwhite"></i>
+			<div class="col-md-8">
+				<!-- start film -->
+				<div class="movies-film">
+					<!-- start heading movies -->
+					<div class="movies-heading">
+						<div class="row">
+							<div class="col-xs-6">
+								<h2 class="fred actor-movies"></h2>
+							</div>
+							<div class="col-xs-4 col-xs-push-2 text-right hide more-film fblue">See More</div>
+						</div>
+					</div>
+					<!-- end heading movies -->
+					<!-- start movies konten -->
+					<div class="movies-konten">
+						<div class="row">
+							<!-- start movies-list -->
+							<!-- end movies-list -->
+						</div>
+					</div>
+					<!-- end movies konten -->
 				</div>
+				<!-- end film -->
 			</div>
-			<!-- end biodata poto -->
-			<!-- start biodata detail -->
-			<div class="col-md-10">
-				<div class="biodata-detail fwhite">
-					<ul>
-						<li>
-							<div class="biodata-detail-left">Height:</div>
-							<div class="biodata-detail-right bioheight"></div>
-						</li>
-						<li>
-							<div class="biodata-detail-left">Height</div>
-							<div class="biodata-detail-right">wm</div>
-						</li>
-						<li>
-							<div class="biodata-detail-left">Height</div>
-							<div class="biodata-detail-right">wm</div>
-						</li>
-						<li>
-							<div class="biodata-detail-left">Height</div>
-							<div class="biodata-detail-right">wm</div>
-						</li>
-						<li></li>
-					</ul>
+			<div class="col-md-4">
+				<!-- start related movies -->
+				<div class="movies-related">
+					<h2 class="fred">Related Another Movie's</h2>
+					<div class="related-credit">
+						<h3 class="related-title"></h3>
+						<ul>
+							<li>
+								<div class="related-detail-left">Director :</div>
+								<div class="related-detail-right related-director"></div>
+							</li>
+							<li>
+								<div class="related-detail-left">Producer :</div>
+								<div class="related-detail-right related-producer"></div>
+							</li>
+							<li>
+								<div class="related-detail-left">Release Date :</div>
+								<div class="related-detail-right related-date"></div>
+							</li>
+						</ul>
+					</div>
+					<div class="related-caption">
+						<div class="related-opening"></div>
+						<div class="related-more fblue">
+							See More
+						</div>
+					</div>
 				</div>
+				<!-- end related movies -->
 			</div>
-			<!-- end biodata detail -->
 		</div>
 	</div>
-	<!-- end biodata -->
+	<!-- end movies -->
 </div>
+<!-- end main content -->
 
-<div class="hasil"></div>
-
-
+<div class="loading-page">
+	<div class="loading-caption">
+		<div class='loader'>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+</div>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
